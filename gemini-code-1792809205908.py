@@ -1,3 +1,4 @@
+
 import streamlit as st
 import random
 import time
@@ -161,8 +162,8 @@ if page == "1. Chào Mừng & Hướng Dẫn":
 
     col1, col2 = st.columns([1, 1])
     with col1:
-        # Thay thế ảnh cũ bằng ảnh chú mèo cute mị vừa gửi
-        st.image("https://i.imgur.com/8Q6v48g.jpeg", use_container_width=True)
+        # Sử dụng link ảnh Unsplash ổn định, không bị lỗi hotlink
+        st.image("https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80", use_container_width=True)
     
     with col2:
         st.markdown("### 👋 Xin chào những nhà quản lý tài chính tương lai!")
