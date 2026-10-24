@@ -310,7 +310,7 @@ elif page == "4. Lời Cảm Ơn & Tác Giả":
 
     st.markdown("""
     ### 🙏 Lời Cảm Ơn Chân Thành
-    Nhóm tác giả xin gửi lời cảm ơn sâu sắc nhất tới **Ban Giám khảo**, quý Thầy Cô giáo hướng dẫn cùng toàn thể các bạn học sinh đã trải nghiệm và đóng góp ý kiến quý báu cho phần mềm **FinAI Simulator**. 
+    Nhóm tác giả xin gửi lời cảm ơn sâu sắc nhất tới **Ban Giám khảo**, quý Thầy Cô giáo cùng toàn thể các bạn học sinh đã trải nghiệm và đóng góp ý kiến quý báu cho phần mềm **FinAI Simulator**. 
     
     Sự ủng hộ của mọi người chính là động lực lớn nhất để nhóm tiếp tục phát triển phần mềm ngày càng thông minh và hữu ích hơn!
     """)
@@ -320,10 +320,8 @@ elif page == "4. Lời Cảm Ơn & Tác Giả":
     col_x, col_y = st.columns(2)
     with col_x:
         st.markdown("🌐 **Tác giả 1:** Nguyễn Lan Anh")
-        st.markdown("🏫 **Đơn vị:** Học sinh Trung học")
     with col_y:
-        st.markdown("🌐 **Tác giả 2 & Đồng đội:** (Nhập tên đồng đội của bạn ở đây)")
-        st.markdown("🏫 **Giáo viên hướng dẫn:** (Nhập tên GVHD ở đây)")
+        st.markdown("🌐 **Tác giả 2:** Đoàn Thành Long")
     st.markdown("</div>", unsafe_allow_html=True)
 
     st.markdown("<br><hr>", unsafe_allow_html=True)
