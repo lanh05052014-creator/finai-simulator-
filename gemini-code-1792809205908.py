@@ -10,7 +10,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# --- CSS TÙY CHỈNH MÀU SẮC & PHONG CÁCH TAY LÁI TRẺ ---
+# --- CSS TÙY CHỈNH MÀU SẮC & PHONG CÁCH ---
 st.markdown("""
     <style>
     .main-title {
@@ -41,7 +41,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# --- LỚP XỬ LÝ NGHỆ THUẬT & LOGIC ANALYZER ---
+# --- LỚP XỬ LÝ LOGIC ANALYZER ---
 class AdvancedFinAIAnalyzer:
     def __init__(self, student_name, monthly_income):
         self.student_name = student_name
@@ -161,7 +161,8 @@ if page == "1. Chào Mừng & Hướng Dẫn":
 
     col1, col2 = st.columns([1, 1])
     with col1:
-        st.image("https://img.freepik.com/free-vector/happy-students-concept-illustration_114360-8276.jpg", use_container_width=True)
+        # Thay thế ảnh cũ bằng ảnh chú mèo cute mị vừa gửi
+        st.image("https://i.imgur.com/8Q6v48g.jpeg", use_container_width=True)
     
     with col2:
         st.markdown("### 👋 Xin chào những nhà quản lý tài chính tương lai!")
